@@ -1,5 +1,23 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-click-default-group (1.2.2-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Remove obsolete field Name from debian/upstream/metadata (already present in
+    machine-readable debian/copyright).
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 26 May 2022 17:28:33 +0100
+
+python-click-default-group (1.2.2-2) unstable; urgency=low
+
+  * Add myself as uploader and to d/copyright .
+  * Bump Standards-Version to 4.6.0.1.
+  * Skip failing test_default_command_with_arguments test.
+  * Enable upstream testsuite for autopkgtests.
+  * Run wrap-and-sort -bast to reduce diff size of future changes.
+
+ -- Michael Fladischer <fladi@debian.org>  Thu, 17 Feb 2022 12:13:57 +0000
+
+python-click-default-group (1.2.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #976443).
+
+ -- Adam Cecile <acecile@le-vert.net>  Tue, 28 Sep 2021 22:33:08 +0200
